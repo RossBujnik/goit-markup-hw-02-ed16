@@ -1,9 +1,64 @@
-/* globalne kolory */
+/* paleta kolorów */
 
 :root {
-	--font-color: #2e2f42;
+	--main-font-color: #2e2f42;
 	--logo-blue: #4d5ae5;
-	--back-white: #ffffff;
+	--background-white: #ffffff;
 	--links-color: #434455;
-	--back-our-team: #f4f4fd;
+	--background-our-team: #f4f4fd;
+	--hero-background: #2e2f42;
+	--hero-button: #4d5ae5;
+	--portfolio-font: #4d5ae5;
+	--portfolio-button: #e7e9fc;
+	--portfolio-button-active: #404bbf;
+}
+
+/* style globalne */
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+a {
+	text-decoration: none;
+	color: var(--links-color);
+}
+ul {
+	font-style: normal;
+	list-style-type: none;
+}
+button {
+	cursor: pointer;
+}
+
+/* header - logo */
+
+.brand-logo {
+	font-family: Raleway;
+	font-weight: 800;
+	font-size: 18;
+	line-height: 1, 17;
+	letter-spacing: 3%;
+}
+.brand-logo_blue {
+	color: var(--logo-blue);
+}
+.brand-logo_black {
+	color: var(--main-font-color);
+}
+
+/* nawigacja nagłówka */
+
+.header-nav {
+	font-weight: 500;
+	font-size: 16;
+	line-height: 1, 5;
+	letter-spacing: 2%;
+}
+
+/* kontakty w nagłówku */
+
+.header-contacts {
+	font-size: 16;
+	line-height: 1, 5;
+	letter-spacing: 2%;
 }
