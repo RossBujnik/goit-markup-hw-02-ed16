@@ -29,6 +29,29 @@ ul {
 button {
 	cursor: pointer;
 }
+h1 {
+	color: var(--background-white);
+	font-weight: 700;
+	font-size: 56;
+	line-height: 1, 07;
+	letter-spacing: 2%;
+}
+
+h2 {
+	color: var(--hero-background);
+	font-weight: 700;
+	font-size: 36;
+	line-height: 1, 11;
+	letter-spacing: 2%;
+}
+
+h3 {
+	color: var(--hero-background);
+	font-weight: 500;
+	font-size: 20;
+	line-height: 1, 2;
+	letter-spacing: 2%;
+}
 
 /* header - logo */
 
@@ -61,4 +84,52 @@ button {
 	font-size: 16;
 	line-height: 1, 5;
 	letter-spacing: 2%;
+}
+
+/* hero */
+
+.hero-background {
+	background-color: var(--hero-background);
+}
+.hero-button {
+	color: var(--background-white);
+	background-color: var(--hero-button);
+	font-weight: 500;
+	font-size: 16;
+	line-height: 1, 5;
+	letter-spacing: 2%;
+}
+
+/* Main Page section 1 */
+
+.section1-content {
+	color: var(--links-color);
+	font-size: 16;
+	line-height: 1, 5;
+	letter-spacing: 2%;
+}
+
+/* Main Page - section 3 */
+
+.team-position {
+	color: var(--links-color);
+	font-size: 16;
+	line-height: 1, 5;
+	letter-spacing: 2%;
+}
+
+/* footer */
+
+.footer-contents {
+	color: var(--background-our-team);
+	font-weight: 400;
+	font-size: 16;
+	line-height: 1, 5;
+	letter-spacing: 2%;
+}
+.footer-background {
+	background-color: var(--hero-background);
+}
+.brand-logo_white {
+	color: var(--background-our-team);
 }
