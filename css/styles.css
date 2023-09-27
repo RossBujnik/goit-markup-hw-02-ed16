@@ -34,7 +34,7 @@ h1 {
 	font-weight: 700;
 	font-size: 56;
 	line-height: 1, 07;
-	letter-spacing: 2%;
+	letter-spacing: 0.02em;
 }
 
 h2 {
@@ -42,7 +42,7 @@ h2 {
 	font-weight: 700;
 	font-size: 36;
 	line-height: 1, 11;
-	letter-spacing: 2%;
+	letter-spacing: 0.02em;
 }
 
 h3 {
@@ -50,7 +50,7 @@ h3 {
 	font-weight: 500;
 	font-size: 20;
 	line-height: 1, 2;
-	letter-spacing: 2%;
+	letter-spacing: 0.02em;
 }
 
 /* header - logo */
@@ -60,7 +60,7 @@ h3 {
 	font-weight: 800;
 	font-size: 18;
 	line-height: 1, 17;
-	letter-spacing: 3%;
+	letter-spacing: 0.03em;
 }
 .brand-logo_blue {
 	color: var(--logo-blue);
@@ -75,7 +75,7 @@ h3 {
 	font-weight: 500;
 	font-size: 16;
 	line-height: 1, 5;
-	letter-spacing: 2%;
+	letter-spacing: 0.02em;
 }
 
 /* kontakty w nagłówku */
@@ -83,7 +83,7 @@ h3 {
 .header-contacts {
 	font-size: 16;
 	line-height: 1, 5;
-	letter-spacing: 2%;
+	letter-spacing: 0.02em;
 }
 
 /* hero */
@@ -97,7 +97,7 @@ h3 {
 	font-weight: 500;
 	font-size: 16;
 	line-height: 1, 5;
-	letter-spacing: 2%;
+	letter-spacing: 0.02em;
 }
 
 /* Main Page section 1 */
@@ -106,7 +106,7 @@ h3 {
 	color: var(--links-color);
 	font-size: 16;
 	line-height: 1, 5;
-	letter-spacing: 2%;
+	letter-spacing: 0.02em;
 }
 
 /* Main Page - section 3 */
@@ -115,7 +115,7 @@ h3 {
 	color: var(--links-color);
 	font-size: 16;
 	line-height: 1, 5;
-	letter-spacing: 2%;
+	letter-spacing: 0.02em;
 }
 
 /* footer */
@@ -125,7 +125,7 @@ h3 {
 	font-weight: 400;
 	font-size: 16;
 	line-height: 1, 5;
-	letter-spacing: 2%;
+	letter-spacing: 0.02em;
 }
 .footer-background {
 	background-color: var(--hero-background);
