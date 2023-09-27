@@ -1,1 +1,1 @@
-https://rossbujnik.github.io/goit-markup-hw-02cs cd-ed16/
+https://rossbujnik.github.io/goit-markup-hw-02-ed16/
