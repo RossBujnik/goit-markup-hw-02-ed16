@@ -3,14 +3,16 @@
 :root {
 	--dark: #2e2f42;
 	--primary-brand: #4d5ae5;
-	--background-white: #ffffff;
+	--white-background: #ffffff;
 	--text: #434455;
 	--light: #f4f4fd;
 	--accent: #e7e9fc;
 	--pressed-state: #404bbf;
 	--success: #31d0aa;
 	--subtle-title: #8e8f99;
-	--modal-overlay: #2e2f42;
+	--modal-overlay: rgba(46, 47, 66, 0.4);
+	--modal-background: #fcfcfc;
+	--hero-background: rgba(46, 47, 66, 0.7);
 }
 
 /* style globalne */
@@ -30,7 +32,7 @@ button {
 	cursor: pointer;
 }
 h1 {
-	color: var(--background-white);
+	color: var(--white-background);
 	font-weight: 700;
 	font-size: 56;
 	line-height: 1, 07;
@@ -92,7 +94,7 @@ h3 {
 	background-color: var(--dark);
 }
 .hero-button {
-	color: var(--background-white);
+	color: var(--white-background);
 	background-color: var(--primary-brand);
 	font-weight: 500;
 	font-size: 16;
@@ -149,6 +151,6 @@ h3 {
 
 .portfolio-list .portfolio-button:hover,
 .portfolio-list .portfolio-button:focus {
-	color: var(--background-white);
+	color: var(--white-background);
 	background-color: var(--pressed-state);
 }
