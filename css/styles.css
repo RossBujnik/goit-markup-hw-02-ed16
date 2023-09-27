@@ -1,16 +1,16 @@
 /* paleta kolorów */
 
 :root {
-	--main-font-color: #2e2f42;
-	--logo-blue: #4d5ae5;
+	--dark: #2e2f42;
+	--primary-brand: #4d5ae5;
 	--background-white: #ffffff;
-	--links-color: #434455;
-	--background-our-team: #f4f4fd;
-	--hero-background: #2e2f42;
-	--hero-button: #4d5ae5;
-	--portfolio-font: #4d5ae5;
-	--portfolio-button: #e7e9fc;
-	--portfolio-button-active: #404bbf;
+	--text: #434455;
+	--light: #f4f4fd;
+	--accent: #e7e9fc;
+	--pressed-state: #404bbf;
+	--success: #31d0aa;
+	--subtle-title: #8e8f99;
+	--modal-overlay: #2e2f42;
 }
 
 /* style globalne */
@@ -20,7 +20,7 @@ body {
 }
 a {
 	text-decoration: none;
-	color: var(--links-color);
+	color: var(--text);
 }
 ul {
 	font-style: normal;
@@ -38,7 +38,7 @@ h1 {
 }
 
 h2 {
-	color: var(--hero-background);
+	color: var(--dark);
 	font-weight: 700;
 	font-size: 36;
 	line-height: 1, 11;
@@ -46,7 +46,7 @@ h2 {
 }
 
 h3 {
-	color: var(--hero-background);
+	color: var(--dark);
 	font-weight: 500;
 	font-size: 20;
 	line-height: 1, 2;
@@ -63,7 +63,7 @@ h3 {
 	letter-spacing: 0.03em;
 }
 .brand-logo_blue {
-	color: var(--logo-blue);
+	color: var(--primary-brand);
 }
 .brand-logo_black {
 	color: var(--main-font-color);
@@ -89,11 +89,11 @@ h3 {
 /* hero */
 
 .hero-background {
-	background-color: var(--hero-background);
+	background-color: var(--dark);
 }
 .hero-button {
 	color: var(--background-white);
-	background-color: var(--hero-button);
+	background-color: var(--primary-brand);
 	font-weight: 500;
 	font-size: 16;
 	line-height: 1, 5;
@@ -103,7 +103,7 @@ h3 {
 /* Main Page section 1 */
 
 .section1-content {
-	color: var(--links-color);
+	color: var(--text);
 	font-size: 16;
 	line-height: 1, 5;
 	letter-spacing: 0.02em;
@@ -112,7 +112,7 @@ h3 {
 /* Main Page - section 3 */
 
 .team-position {
-	color: var(--links-color);
+	color: var(--text);
 	font-size: 16;
 	line-height: 1, 5;
 	letter-spacing: 0.02em;
@@ -121,27 +121,34 @@ h3 {
 /* footer */
 
 .footer-contents {
-	color: var(--background-our-team);
+	color: var(--light);
 	font-weight: 400;
 	font-size: 16;
 	line-height: 1, 5;
 	letter-spacing: 0.02em;
 }
 .footer-background {
-	background-color: var(--hero-background);
+	background-color: var(--dark);
 }
 .brand-logo_white {
-	color: var(--background-our-team);
+	color: var(--light);
 }
 
 /* Portfolio */
 /* Filters*/
 
-.portfolio-button {
-	color: var(--hero-button);
-	background-color: var(--portfolio-button);
+.portfolio-list .portfolio-button {
+	color: var(--primary-brand);
+	background-color: var(--accent);
 	font-weight: 500;
 	font-size: 16;
 	line-height: 1, 5;
 	letter-spacing: 4;
+	border: none;
+}
+
+.portfolio-list .portfolio-button:hover,
+.portfolio-list .portfolio-button:focus {
+	color: var(--background-white);
+	background-color: var(--pressed-state);
 }
