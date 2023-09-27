@@ -19,6 +19,7 @@
 
 body {
 	font-family: "Roboto", sans-serif;
+	color: var(--text);
 }
 a {
 	text-decoration: none;
@@ -126,7 +127,6 @@ h3 {
 
 .footer-contents {
 	color: var(--light);
-	font-weight: 400;
 	font-size: 16;
 	line-height: 1, 5;
 	letter-spacing: 0.02em;
@@ -143,16 +143,20 @@ h3 {
 
 .portfolio-list .portfolio-button {
 	color: var(--primary-brand);
-	background-color: var(--accent);
+	background-color: var(--light);
 	font-weight: 500;
 	font-size: 16;
 	line-height: 1, 5;
 	letter-spacing: 4;
-	border: none;
+	border: 1px solid var(--accent);
+	border-radius: 4px;
 }
 
 .portfolio-list .portfolio-button:hover,
 .portfolio-list .portfolio-button:focus {
 	color: var(--white-background);
 	background-color: var(--pressed-state);
+	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+		0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+	border: none;
 }
